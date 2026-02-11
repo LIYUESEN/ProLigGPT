@@ -92,12 +92,12 @@ The Colab notebook contains detailed usage instructions.
     
 - If you want to provide a prompt for the ligand  
     ```shell
-    python proliggpt.py -f PK3CA.fasta -l COc1ccc(cc1)C(=O) -n 50
+    python proliggpt.py -f PK3CA.fasta -l CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N) -n 50
     ```
     
 - Note: If you are running in a Linux environment, you need to enclose the ligand's prompt with single quotes ('').  
     ```shell
-    python proliggpt.py -f PK3CA.fasta -l 'COc1ccc(cc1)C(=O)' -n 50
+    python proliggpt.py -f PK3CA.fasta -l 'CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N)' -n 50
     ```
 > On Colab, the generation process for 50 molecules took approximately **7 min**.
 ## ✉️ Contact
