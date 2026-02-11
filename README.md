@@ -5,7 +5,7 @@
     <p>
         <img src="https://img.shields.io/github/license/LIYUESEN/ProLigGPT">
     	<img src="https://img.shields.io/badge/python-3.8-blue">
-	<a href="https://colab.research.google.com/drive/1DBJWuAQc1Tl-SiIk6QWcXvBAWHQ01_kw">
+	<a href="https://colab.research.google.com/drive/1lxDpEGz9498tGvEi7nSgryXI4haMKMhc">
 	<img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
         <img src="https://img.shields.io/github/stars/LIYUESEN/ProLigGPT?style=social">
 </div>
