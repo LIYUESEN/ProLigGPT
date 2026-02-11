@@ -331,4 +331,4 @@ if __name__ == "__main__":
     print(f"{len(ligand_post_processor.hash_ligand_mapping)} molecules successfully generated!")
 
     print("Ligand Energy Minimization")
-    result = subprocess.run(['python', 'druggpt_min_multi.py', '-d', output_path])
+    result = subprocess.run(['python', 'proliggpt_min_multi.py', '-d', output_path])
