@@ -267,8 +267,8 @@ if __name__ == "__main__":
 
 
     # Load the tokenizer and the model
-    tokenizer = AutoTokenizer.from_pretrained('liyuesen/druggpt')
-    model = GPT2LMHeadModel.from_pretrained("liyuesen/druggpt")
+    tokenizer = AutoTokenizer.from_pretrained('liyuesen/proliggpt')
+    model = GPT2LMHeadModel.from_pretrained("liyuesen/proliggpt")
 
 
     model.eval()
