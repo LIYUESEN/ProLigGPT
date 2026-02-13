@@ -100,6 +100,10 @@ The Colab notebook contains detailed usage instructions.
     python proliggpt.py -f PK3CA.fasta -l 'CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N)' -n 50
     ```
 > On Colab, the generation process for 50 molecules took approximately **7 min**.
+## 🌌 Model Visualization
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HUioWgOmVxmoP__sl-9qbyFlWajCdTHa)
+
+We visualized the model's attention weights using [BertViz](https://github.com/jessevig/bertviz), illustrating clearly how ProLigGPT directly leverages input token information.
 ## ✉️ Contact
 Yuesen Li      lisen2286@gmail.com  
 
