@@ -31,7 +31,7 @@ psutil==7.0.0
 scikit-learn==1.3.2
 scipy==1.10.1
 transformers==4.46.3
-torch==1.13.0+cu117
+torch==2.0.1+cu117
 conda-forge/label/cf202003::openbabel
 ```
 ## 📥 Installation guide
@@ -48,7 +48,7 @@ conda activate proliggpt
 ```
 ### Install PyTorch and other requirements
 ```shell
-pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch --index-url https://download.pytorch.org/whl/cu117
 pip install datasets==3.1.0 transformers==4.46.3 scipy==1.10.1 scikit-learn==1.3.2 psutil==7.0.0
 conda install conda-forge/label/cf202003::openbabel
 ```
