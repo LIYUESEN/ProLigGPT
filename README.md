@@ -17,10 +17,11 @@ biomedical text analysis, providing strong support for the proposition of ProLig
 In this study, we employ the ProLigGPT model to learn a substantial amount of protein-ligand binding data, aiming to discover novel molecules that can bind with specific proteins. This strategy not only significantly improves the efficiency of ligand design but also offers a swift and effective avenue for the drug development process, bringing new possibilities to the pharmaceutical domain.
 ## 💽 System requirements
 ### OS requirements
-This project is developed for Microsoft Windows and Linux, and has been tested on the following systems:
+This project is developed for Microsoft Windows and Linux, and has been tested on the following operating systems and cloud computing environments:
 - **Microsoft Windows:** Windows 10 22H2
 - **Linux:** Ubuntu 24.04 LTS
 - **Google Colab**
+- **Code Ocean**
 ### GPU computation platform requirements
 This project has been tested on `CUDA 11.7.0` and `cuDNN 8`.
 ### Python dependencies
@@ -30,7 +31,7 @@ psutil==7.0.0
 scikit-learn==1.3.2
 scipy==1.10.1
 transformers==4.46.3
-
+torch==1.13.0+cu117
 conda-forge/label/cf202003::openbabel
 ```
 ## 📥 Installation guide
@@ -47,7 +48,7 @@ conda activate proliggpt
 ```
 ### Install PyTorch and other requirements
 ```shell
-pip install torch --index-url https://download.pytorch.org/whl/cu117
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install datasets==3.1.0 transformers==4.46.3 scipy==1.10.1 scikit-learn==1.3.2 psutil==7.0.0
 conda install conda-forge/label/cf202003::openbabel
 ```
